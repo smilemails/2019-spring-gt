@@ -20,7 +20,7 @@ int main(int argc, char** argv){
   //read from file
   nm->interpret("input1.txt");
   cout<<"=========================================================="<<endl;
-  Eulerpath(nm);
+  cout << Eulerpath(nm) <<endl;
   
   return 0;
 }
